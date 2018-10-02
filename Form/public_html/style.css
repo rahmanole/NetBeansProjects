@@ -1,0 +1,107 @@
+body{
+    background: url('img/1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mainDiv{
+    width:50%;
+    height: auto;
+    margin: 0 auto;
+    background: #f2f2f2;
+    box-shadow: 0 0 10px #3333;
+
+}
+
+form{
+    padding:20px;
+    margin: 0 auto;
+}
+
+label{
+    font-size: 18px;
+}
+.row{
+    width: 100%;
+    height: 50px;
+    margin: 0 0 12px;
+}
+
+.rowSkill{
+    width: 100%;
+    height: auto;
+    margin: 0 0 90px;
+}
+.rowGen{
+    width: 100%;
+    height: auto;
+    margin: 0 0 90px;
+}
+.leftCol{
+    float:left;
+    width: 27%;
+
+}
+
+.rightCol{
+    float:left;
+    width: 70%;
+
+}
+
+input[type=text]{
+
+}
+
+.inpt{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: width 0.5s;
+}
+
+.inpt:focus{
+    box-shadow: 0 0 10px #0077CC;
+    width:95%;
+}
+
+select {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+select:focus{
+    box-shadow: 0 0 10px #0077CC;
+
+}
+
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+.btnRow{
+    width:50%;
+    margin:50px auto;
+}
+.btn{
+    padding: 11px 35px;
+    font-size: 18px;
+    background: #f2f2f2;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+input[type=submit]{
+
+}
+
+
