@@ -1,0 +1,38 @@
+.mainDiv{
+    width:60%;
+    height:600px;
+    margin:0 auto;
+    background: #f2f2f2
+}
+
+.row1{
+    width:100%;
+    height:150px;
+}
+
+.row2{
+    width:100%;
+    height:400px;
+    background: white;
+}
+.leftCol{
+    float:left;
+    width: 30%;
+    height: 100%;
+    background: #f2f2f2;
+}
+.rightCol{
+    float:left;
+    width: 70%;
+    height: 100%;
+}
+
+.row3{
+    width:100%;
+    height:50px;
+}
+
+.row3 p{
+    text-align: center;
+    
+}
