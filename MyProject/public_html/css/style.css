@@ -1,0 +1,107 @@
+.promo{
+    background-image: url('../img/assessment_promo_bg_1.jpg');
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.promoCls{
+    position: absolute;
+    right: 2%;
+    top: 27%;
+}
+
+.menuBar{
+    background: #374046;
+}
+.menu{
+    background: #374046;
+    width:90%;
+    height: 38px;
+    margin:0 auto;
+}
+
+.menuLeft{
+    float:left;
+}
+
+.menuLeft ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.menuLeft ul li{
+display:inline-block;
+margin: 4px -3px;
+
+}
+.menuLeft ul li:first-child{
+   margin-left: 0;
+}
+.menuLeft ul li a{
+    color: #bdbdbd;
+font-size: 11px;
+padding: 12px 19px;
+    text-decoration:none;
+    font-family:M; 
+}
+
+.menuLeft ul li a:hover{
+    background: #668416;
+}
+.menuRight{
+    float:right;
+}
+
+.menuRight a{
+    float:right;
+    color: #bdbdbd;
+    margin: 9px 12px;
+    font-size: 13px;
+}
+
+.langBtn{
+    float: right;
+    margin: 8px 0 0 16px;
+}
+
+.langBtn a{
+
+}
+.btnE{
+border: 1px solid white;
+cursor: pointer;
+border-radius: 4px 0 0 4px;
+font-size: 13px;
+}
+.btnB{
+    
+border: 1px solid white;
+cursor: pointer;
+border-radius: 0px 4px 4px 0px;
+background: #373C41;
+font-size: 13px;
+}
+
+/*Third Row*/
+.logoBar{
+    background:white;
+    box-shadow: 0 4px 20px rgba(0,0,0,.25);
+    height: auto;
+}
+.logoContainer{
+    width:90%;
+    margin:0 auto;
+}
+
+.logo{
+   padding: 12px 20px;
+   float: left;
+}
+
+.nav{
+    
+}

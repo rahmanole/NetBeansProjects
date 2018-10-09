@@ -1,0 +1,36 @@
+.myDiv{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.myDiv:hover{
+    height: auto;
+    overflow: auto;
+}
+
+.formBadge{
+position: relative;
+
+top: -17px;
+
+right: 1px;
+
+font-size: 13px;
+}
+
+.myCrd{
+    height:200px;
+    overflow: hidden;
+    position:;
+    
+}
+
+.myCrd:hover{
+    display: block;
+    height: auto;
+    position: absolute;
+    width: 300px;
+    z-index:1;
+   
+}
