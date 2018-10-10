@@ -17,7 +17,7 @@
 }
 .menu{
     background: #374046;
-    width:90%;
+   
     height: 38px;
     margin:0 auto;
 }
@@ -30,21 +30,21 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-   
+
 }
 
 .menuLeft ul li{
-display:inline-block;
-margin: 4px -3px;
+    display:inline-block;
+    margin: 4px -3px;
 
 }
 .menuLeft ul li:first-child{
-   margin-left: 0;
+    margin-left: 0;
 }
 .menuLeft ul li a{
     color: #bdbdbd;
-font-size: 11px;
-padding: 12px 19px;
+    font-size: 11px;
+    padding: 12px 19px;
     text-decoration:none;
     font-family:M; 
 }
@@ -53,7 +53,7 @@ padding: 12px 19px;
     background: #668416;
 }
 .menuRight{
-    float:right;
+   float: right;
 }
 
 .menuRight a{
@@ -72,18 +72,18 @@ padding: 12px 19px;
 
 }
 .btnE{
-border: 1px solid white;
-cursor: pointer;
-border-radius: 4px 0 0 4px;
-font-size: 13px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px 0 0 4px;
+    font-size: 13px;
 }
 .btnB{
-    
-border: 1px solid white;
-cursor: pointer;
-border-radius: 0px 4px 4px 0px;
-background: #373C41;
-font-size: 13px;
+
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 0px 4px 4px 0px;
+    background: #373C41;
+    font-size: 13px;
 }
 
 /*Third Row*/
@@ -91,17 +91,76 @@ font-size: 13px;
     background:white;
     box-shadow: 0 4px 20px rgba(0,0,0,.25);
     height: auto;
+    position: relative;
+z-index: 5;
 }
-.logoContainer{
+.logoNav{
     width:90%;
     margin:0 auto;
 }
 
 .logo{
-   padding: 12px 20px;
-   float: left;
+    padding: 12px 20px;
+    float: left;
 }
 
-.nav{
+.navs{
+   
+}
+
+
+
+
+
+
+.navs ul li a:hover{
+    background: #F5F5F5;
+
+}
+
+
+
+/*CSS codes for slider*/
+
+.slider{
+    background-image: url("../img/slider_5.jpg");
+}
+
+.bc-slider{
+   position: absolute; 
+}
+
+.sliderTop{
     
+}
+
+.srcPanel{
+       padding: 50px 0 0 0;
+}
+
+.tagIcon{
+    margin: 0 -5px 0 0;
+padding: 8px 0 14px 0;
+}
+.srcFrm{
+background: #2F4D89;
+margin: 20px 0 0 0;
+padding: 12px 0 10px 0;
+border-radius: 4px;
+}
+.srcInput{
+    background: white;
+}
+
+
+/*.srcFrm input[type=text],select{
+border: none;
+padding: 4px 25% 10px 4px;
+border-radius: 4px;
+margin-bottom: 4px;
+}*/
+.srcFrm select{
+border: none;
+padding: 5px 10% 10px 4px;
+border-radius: 4px;
 }
