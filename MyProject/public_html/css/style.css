@@ -1,3 +1,11 @@
+body{
+    background: #EEEEEE;
+}
+.wdth{
+    width: 90%;
+    margin:0 auto;       
+}
+
 .promo{
     background-image: url('../img/assessment_promo_bg_1.jpg');
     height: auto;
@@ -17,7 +25,7 @@
 }
 .menu{
     background: #374046;
-   
+
     height: 38px;
     margin:0 auto;
 }
@@ -53,8 +61,12 @@
     background: #668416;
 }
 .menuRight{
-   float: right;
+    float: right;
 }
+.menuLeft ul li{
+    display: inline-block;
+}
+
 
 .menuRight a{
     float:right;
@@ -92,7 +104,7 @@
     box-shadow: 0 4px 20px rgba(0,0,0,.25);
     height: auto;
     position: relative;
-z-index: 5;
+    z-index: 5;
 }
 .logoNav{
     width:90%;
@@ -104,11 +116,21 @@ z-index: 5;
     float: left;
 }
 
-.navs{
-   
+.mainNav li{
+    
 }
 
+.mainNav li a{
+    padding: 22px 0 22px 0;
+    padding-right: 0px;
+    padding-left: 0px;
+margin: -8px 0 -8px 0;
+font-size: 13px;
+}
 
+.mainNav li a:hover{
+    background: #F5F5F5;
+}
 
 
 
@@ -123,44 +145,135 @@ z-index: 5;
 /*CSS codes for slider*/
 
 .slider{
-    background-image: url("../img/slider_5.jpg");
+    min-height: 280px;
+    overflow:hidden;
 }
 
 .bc-slider{
-   position: absolute; 
+    position: absolute; 
 }
 
 .sliderTop{
-    
-}
 
+}
+/*Search panel over sliader*/
 .srcPanel{
-       padding: 50px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
-.tagIcon{
-    margin: 0 -5px 0 0;
-padding: 8px 0 14px 0;
-}
 .srcFrm{
-background: #2F4D89;
-margin: 20px 0 0 0;
-padding: 12px 0 10px 0;
+    background: #2F3B78;
+    padding: 5px 10px 15px 0;
+    margin: 30px 0 0 0;
+    border-radius: 5px;
+}
+
+.tag-icon{}
+.srcBox{
+background: white;
+margin: 0 10px 0 12px;
+    margin-bottom: 0px;
+margin-bottom: 0px;
+padding: 6px 0 6px 12px;
 border-radius: 4px;
+}
+
+.srcBox input[type=text]{
+    border: none;
+width: 92%;
+padding: 0px 0 0 5px;
+}
+/*
+.slct select{
+    border: 1px white;
+    padding: 7px 1px 6px 4px;
+    margin: 8px 0 0 0;
+    width: 29%;
+    border-radius: 4px;
+}
+
+.slct type[type=submit]{
+    border: 1px white;
+    padding: 7px 1px 6px 4px;
+    margin: 8px 0 0 0;
+    width: 29%;
+    border-radius: 4px;
+}*/
+
+/*.tagIcon{
+    margin: 0 -5px 0 0;
+    padding: 8px 0 14px 0;
+}*/
+/*.srcFrm{
+    background: #2F4D89;
+    margin: 20px 0 0 0;
+    padding: 12px 0 10px 0;
+    border-radius: 4px;
+}
+
+.srcFrm h3{
+    font-size: 24px;
+    color: #424242;
+    font-weight: 700;
+    margin: 0 0 20px;
 }
 .srcInput{
     background: white;
+    border-radius: 5px;
+    padding: 8px 0px 6px 10px;
+    margin: 0 8px 0 15px;
 }
 
 
-/*.srcFrm input[type=text],select{
-border: none;
-padding: 4px 25% 10px 4px;
-border-radius: 4px;
-margin-bottom: 4px;
-}*/
+.srcFrm input[type=text]{
+    border: none;
+    padding: 7px 0px 0px 4px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    width: 40%;
+}
 .srcFrm select{
-border: none;
-padding: 5px 10% 10px 4px;
-border-radius: 4px;
+    border: none;
+    padding: 5px 10% 10px 4px;
+    border-radius: 4px;
+}*/
+
+.sliderRightbar{
+    background: #2F417D;
+    padding: 0 0 18px 15px;
+}
+
+.divisions h4{
+    font-size: 14px;
+    padding: 15px 0 15px 0;
+    color:white;
+}
+
+.divisions li{
+
+    margin: 0 5px 5px 0px;
+}
+
+
+.divisions li a{
+    color: white;
+    font-size: 12px;
+    border: 1px solid;
+    margin: 3px 0px 5px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 4px 6px;
+}
+
+.quickLinks h4{
+    font-size: 14px;
+    color: white;
+    padding: 15px 0 0 0;
+}
+
+.quickLinks li a{
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 0 8px 0 0;
 }
